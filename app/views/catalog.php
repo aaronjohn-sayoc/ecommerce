@@ -19,7 +19,7 @@
 			<h2>Categories</h2>
 			<ul class="list-group">
 				<a href="catalog.php">
-					<li class="list-group-item active"> All </li>
+					<li class="list-group-item active my-3"> All </li>
 				</a>
 
 				<?php 
@@ -27,7 +27,7 @@
 					$categories = mysqli_query($conn,$sql);
 					foreach ($categories as $category) { ?>
 						<a href="catalog.php?category_id=<?php echo $category['id'] ; ?>">
-							<li class="list-group-item active">
+							<li class="list-group-item active my-3">
 								<?php echo $category['name']; ?>
 							</li>
 						</a>
@@ -38,13 +38,13 @@
 			<h2>Sort</h2>
 			<ul class="list-group border">
 				<a href="../controllers/sort.php?sort=asc">
-					<li class="list-group-item active">
+					<li class="list-group-item active my-3">
 						Price(Lowest to Higest)
 					</li>
 				</a>
 
 				<a href="../controllers/sort.php?sort=desc">
-					<li class="list-group-item">
+					<li class="list-group-item active my-3">
 						Price(Highest to Lowest)
 					</li>
 				</a>
