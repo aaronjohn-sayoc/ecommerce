@@ -19,7 +19,7 @@
 			<h2>Categories</h2>
 			<ul class="list-group">
 				<a href="catalog.php">
-					<li class="list-group-item"> All </li>
+					<li class="list-group-item active"> All </li>
 				</a>
 
 				<?php 
@@ -27,7 +27,7 @@
 					$categories = mysqli_query($conn,$sql);
 					foreach ($categories as $category) { ?>
 						<a href="catalog.php?category_id=<?php echo $category['id'] ; ?>">
-							<li class="list-group-item">
+							<li class="list-group-item active">
 								<?php echo $category['name']; ?>
 							</li>
 						</a>
@@ -38,7 +38,7 @@
 			<h2>Sort</h2>
 			<ul class="list-group border">
 				<a href="../controllers/sort.php?sort=asc">
-					<li class="list-group-item">
+					<li class="list-group-item active">
 						Price(Lowest to Higest)
 					</li>
 				</a>
@@ -93,7 +93,7 @@
 								<!-- add to cart -->
 								<div class="card-footer">
 									<input type="number" class="form-control" value="1">
-									<button type="submit" class="btn btn-block btn-outline-primary add-to-cart" data-id="<?php echo $item['id']; ?>"> Add to cart</button>
+									<button type="submit" class="btn btn-block btn-outline-secondary add-to-cart" data-id="<?php echo $item['id']; ?>"> Add to cart</button>
 								</div>
 
 							</div> <!-- end card -->
