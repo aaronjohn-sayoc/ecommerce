@@ -1,5 +1,5 @@
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="#">
+		<a class="navbar-brand" href="./home.php">
 			<i class="far fa-utensils"></i> Tapsimeals Foodie
 		</a>
 
