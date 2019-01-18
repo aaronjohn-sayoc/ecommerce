@@ -19,7 +19,7 @@
 			<h2>Categories</h2>
 			<ul class="list-group">
 				<a href="catalog.php">
-					<li class="list-group-item active my-3"> All </li>
+					<li class="list-group-item active my-1"> All </li>
 				</a>
 
 				<?php 
@@ -38,13 +38,13 @@
 			<h2>Sort</h2>
 			<ul class="list-group border">
 				<a href="../controllers/sort.php?sort=asc">
-					<li class="list-group-item active my-3">
+					<li class="list-group-item active my-1">
 						Price(Lowest to Higest)
 					</li>
 				</a>
 
 				<a href="../controllers/sort.php?sort=desc">
-					<li class="list-group-item active my-3">
+					<li class="list-group-item active my-1">
 						Price(Highest to Lowest)
 					</li>
 				</a>
