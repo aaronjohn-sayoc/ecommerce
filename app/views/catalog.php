@@ -10,7 +10,7 @@
 	global $conn; //refers to the $conn outside the function 
 ?>
 
-<div class="container">
+<div class="container pt-5">
 	<div class="row">
 
 		<!-- categories -->
