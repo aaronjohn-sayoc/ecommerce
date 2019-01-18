@@ -166,8 +166,8 @@ function generate_new_transaction_number() {
 
     $redirectUrls = new RedirectUrls();
     $redirectUrls
-        ->setReturnUrl('http://127.0.0.1/batch19/ecommerce-website/app/controllers/pay.php?success=true')
-        ->setCancelUrl('http://127.0.0.1/batch19/ecommerce-website/app/controllers/pay.php?success=false');
+        ->setReturnUrl('https://ecommerceqstore.herokuapp.com/batch19/ecommerce-website/app/controllers/pay.php?success=true')
+        ->setCancelUrl('https://ecommerceqstore.herokuapp.com/batch19/ecommerce-website/app/controllers/pay.php?success=false');
 
     $payment = new Payment();
     $payment->setIntent('sale')
