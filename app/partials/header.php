@@ -1,6 +1,6 @@
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<a class="navbar-brand" href="#">
-			<i class="far fa-hand-peace"></i> Qrner Store
+			<i class="far fa-utensils"></i> Tapsimeals Foodie
 		</a>
 
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
