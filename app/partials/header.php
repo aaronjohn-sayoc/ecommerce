@@ -39,6 +39,14 @@
 				<li class="nav-item">
 					<a href="./items.php" class="nav-link">Items</a>
 				</li>
+
+				<li class="nav-item">
+					<a href="./orders.php" class="nav-link">Orders</a>
+				</li>
+
+				<li class="nav-item">
+					<a href="./users.php" class="nav-link">Users</a>
+				</li>
 				
 			<?php }; ?>
 
