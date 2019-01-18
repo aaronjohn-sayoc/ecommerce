@@ -5,8 +5,8 @@
 	<div class="container-fluid">
 		<div class="jumbotron bg-dark mt-3 text-center text-white">
 
-			<h1>Qrner Store</h1>
-			<p>Your favorite Qrner Store</p>
+			<h1>Tapsimeals Foodie</h1>
+			<p>Your budget friendly meals at your palms!</p>
 	
 		</div> <!-- end jumbo -->
 	</div> <!-- end container -->
