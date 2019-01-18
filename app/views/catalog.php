@@ -36,7 +36,7 @@
 
 			<!-- set a get request on click of the anchor tag -->
 			<h2>Sort</h2>
-			<ul class="list-group border">
+			<ul class="list-group">
 				<a href="../controllers/sort.php?sort=asc">
 					<li class="list-group-item active my-1">
 						Price(Lowest to Higest)
