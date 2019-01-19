@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5, .nav-link {
 }
 
 .nav-item > .nav-link {
-	font-size: 2.2rem;
+	font-size: 2.1rem;
 }
 
 .nav-item > .nav-link:hover {
@@ -26,5 +26,5 @@ h1,h2,h3,h4,h5, .nav-link {
 }
 
 .badge-primary, .bg-primary {
-	background-color: #FF6046;
+	background-color: #FF6046 !important;
 }
