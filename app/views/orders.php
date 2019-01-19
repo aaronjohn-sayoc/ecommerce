@@ -35,8 +35,8 @@
 						 	<td><?php echo $order['status']; ?></td>
 						 	<td>
 						 		<?php if($order['status']=="pending") { ?>
-						 			<a href="../controllers/complete_order.php?id=<?php echo $order['id']; ?>" class="btn btn-lg btn-outline-dark">Complete Order</a>
-						 			<a href="../controllers/cancel_order.php?id=<?php echo $order['id']; ?>" class="btn btn-lg btn-outline-dark">Cancel Order</a>
+						 			<a href="../controllers/complete_order.php?id=<?php echo $order['id']; ?>" class="btn btn-lg btn-outline-dark mx-2 my-3">Complete Order</a>
+						 			<a href="../controllers/cancel_order.php?id=<?php echo $order['id']; ?>" class="btn btn-lg btn-outline-dark mx-2 my-3">Cancel Order</a>
 						 		<?php }; ?>
 						 	</td>
 						 </tr>
