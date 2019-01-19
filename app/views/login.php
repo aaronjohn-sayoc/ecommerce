@@ -1,11 +1,16 @@
 <?php require_once '../partials/template.php'; ?>
 
 <?php function get_page_content() { ?>
+
+	<header id="hdr-image2" class="jumbotron jumbotron-fluid text-center m-0 p-0">
+		<div class="container pt-5"></div>
+		<div class="container pt-5"></div>
+			<div class="container pt-5">
+		   <h1 id="hdr-title" class="display-4 text-white">Menu</h1>		
+			</div>
+	</header> <!-- end of header -->	
 	
 	<div class="container">
-		<div class="jumbotron bg-dark text-light text-center mt-5">
-			<h4>Login</h4>
-		</div> <!-- end jumbo -->
 
 		<form>
 			<div class="form-group">
