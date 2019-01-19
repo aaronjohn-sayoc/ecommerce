@@ -23,7 +23,7 @@
 		</div> <!-- end row -->
 
 		<div class="table-responsive">
-			<table class="table">
+			<table class="table table-striped">
 				<thead>
 					<tr class="text-center">
 						<th>Item Name</th>
