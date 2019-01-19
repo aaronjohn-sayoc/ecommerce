@@ -21,8 +21,8 @@
 		<div class="row">
 		    <div id="myimages" class="col-md-12">
 		        <div class="row">
-		            <a href="../assets/images/plush-design-studio-unsplash.jpg?image=1" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Plush Design Studio" class="col-sm-4 mx-0 px-0">
-		                <img src="../assets/images/plush-design-studio-unsplash.jpg?image=1" class="img-fluid">
+		            <a href="../assets/images/rawpixel-460973-unsplash.jpg?image=1" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Christmas Themed Cupcakes" class="col-sm-4 mx-0 px-0">
+		                <img src="../assets/images/rawpixel-460973-unsplash.jpg?image=1" class="img-fluid">
 		            </a>
 		            <a href="../assets/images/olia-gozha-54465-unsplash.jpg?image=2" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Cookies On Plate" class="col-sm-4 mx-0 px-0">
 		                <img src="../assets/images/olia-gozha-54465-unsplash.jpg?image=2" class="img-fluid">
@@ -32,8 +32,8 @@
 		            </a>
 		        </div>
 		        <div class="row">
-		            <a href="../assets/images/toa-heftiba-84799-unsplash.jpg?image=4" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Brownie Specialty" class="col-sm-4 mx-0 px-0">
-		                <img src="../assets/images/toa-heftiba-84799-unsplash.jpg?image=4" class="img-fluid">
+		            <a href="../assets/images/rasmus-mikkelstrup-468412-unsplash.jpg?image=4" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Brownie Paradise" class="col-sm-4 mx-0 px-0">
+		                <img src="../assets/images/rasmus-mikkelstrup-468412-unsplash.jpg?image=4" class="img-fluid">
 		            </a>
 		            <a href="../assets/images/hello-i-m-nik-1094728-unsplash.jpg?image=5" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Cupcake Variety" class="col-sm-4 mx-0 px-0">
 		                <img src="../assets/images/hello-i-m-nik-1094728-unsplash.jpg?image=5" class="img-fluid">
