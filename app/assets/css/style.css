@@ -231,7 +231,11 @@ a {
 	border-color: #ff485b !important;
 }
 
-.image {
+input[type="file"] {
+    display: none;
+}
+
+#image {
 	border: 0 none !important;
 	border-color: transparent !important;
 }
