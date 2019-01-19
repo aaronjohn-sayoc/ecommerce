@@ -1,13 +1,13 @@
+<?php
+$title = 'Crown Bakery - Confirmation'
+ ?>
 <?php require_once "../partials/template.php";
 function get_page_content(){
 
         if((isset($_SESSION['user'])) && $_SESSION['user']['roles_id'] == 2) {
 
-	global $conn;
+    global $conn;
      ?>
-<?php
-$title = 'Crown Bakery - Confirmation'
- ?>
 
     <header id="hdr-image13" class="jumbotron jumbotron-fluid text-center m-0 p-0">
         <div class="container pt-5"></div>

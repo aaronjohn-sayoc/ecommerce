@@ -1,8 +1,8 @@
-<?php require_once '../partials/template.php'; ?>
-
 <?php
 $title = 'Crown Bakery - Orders'
  ?>
+<?php require_once '../partials/template.php'; ?>
+
 
 <?php function get_page_content() { 
 	if(isset($_SESSION['user']) && $_SESSION['user']['roles_id'] == 1) {
