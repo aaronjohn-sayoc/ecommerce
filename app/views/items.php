@@ -11,7 +11,7 @@
 		   <h1 id="hdr-title" class="display-4 text-white">Items</h1>		
 			</div>
 		<div class="container pt-5">
-			<a href="./new_item.php" class="btn btn-outline-light btn-lg mb-3">Add New Item</a>
+			<a href="./new_item.php" class="btn btn-outline-light btn-lg mb-3">Add A New Item</a>
 		</div>
 	</header> <!-- end of header -->
 		<div class="container">
