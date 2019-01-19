@@ -28,7 +28,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-lg-7 text-white">
+			<div class="col-lg-9 text-white">
 				<div class="tab-content">
 					<div class="tab-pane my-5" id="profile" role="tabpanel">
 
@@ -53,7 +53,7 @@
 								<input type="text" class="form-control" id="address" name="address" value="<?php echo $user['address']; ?>">
 								<span class="validation"></span><br>
 								<br>
-								<button type="button" class="btn btn-outline-light mb-5" id="update_info">Update Info</button>
+								<button type="button" class="btn btn-outline-light btn-lg mb-5" id="update_info">Update Info</button>
 							</div>
 						</form>
 					</div>
