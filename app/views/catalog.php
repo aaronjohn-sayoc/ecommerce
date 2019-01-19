@@ -14,17 +14,17 @@
 		<div class="container pt-5"></div>
 		<div class="container pt-5"></div>
 			<div class="container pt-5">
-		   <h1 id="hdr-title" class="display-4 pt-3 text-white">Menu</h1>		
+		   <h1 id="hdr-title" class="display-4 text-white">Menu</h1>		
 			</div>
 	</header> <!-- end of header -->
 
-<div class="container pt-5">
+<div class="container py-5">
 	<div class="row">
 
 		<!-- categories -->
 		<div class="col-sm-2">
 			<!-- display categories -->
-			<h2>Categories</h2>
+			<h2 class="py-3">Categories</h2>
 			<ul class="list-group">
 				<a href="catalog.php">
 					<li class="list-group-item active mb-1"> All </li>
@@ -43,17 +43,17 @@
 			</ul>
 
 			<!-- set a get request on click of the anchor tag -->
-			<h2>Sort</h2>
+			<h2 class="py-3">Price Sort</h2>
 			<ul class="list-group">
 				<a href="../controllers/sort.php?sort=asc">
 					<li class="list-group-item active mb-1">
-						Price(Lowest to Higest)
+						Lowest
 					</li>
 				</a>
 
 				<a href="../controllers/sort.php?sort=desc">
 					<li class="list-group-item active mb-1">
-						Price(Highest to Lowest)
+						Highest
 					</li>
 				</a>
 			</ul>
@@ -89,7 +89,7 @@
 								<img class="card-img-top" src="<?php echo $item['image_path']; ?>">
 								<div class="card-body">
 									<h4 class="card-title text-white text-center">
-										<?php echo $item['name']; ?>
+										<strong><?php echo $item['name']; ?></strong>
 									</h4>
 									<p class="card-text text-white text-center">
 										<?php echo $item['description']; ?>
@@ -101,7 +101,7 @@
 								<!-- add to cart -->
 								<div class="card-footer">
 									<input type="number" class="form-control" value="1">
-									<button type="submit" class="btn btn-block btn-outline-light add-to-cart py-3" data-id="<?php echo $item['id']; ?>"> Add to cart</button>
+									<button type="submit" class="btn btn-block btn-outline-light add-to-cart my-3" data-id="<?php echo $item['id']; ?>"> Add to cart</button>
 								</div>
 
 							</div> <!-- end card -->
