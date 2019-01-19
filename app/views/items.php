@@ -5,7 +5,7 @@
 		global $conn;
 		?>
 
-	<header id="hdr-image2" class="jumbotron jumbotron-fluid text-center m-0 p-0">
+	<header id="hdr-image7" class="jumbotron jumbotron-fluid text-center m-0 p-0">
 		<div class="container pt-5"></div>
 			<div class="container pt-5">
 		   <h1 id="hdr-title" class="display-4 text-white">Items</h1>		
