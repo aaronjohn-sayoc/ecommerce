@@ -48,7 +48,7 @@
 				</div>
 				<div class="form-group">
 					<label for="image" class="custom-file-upload">
-					    <i class="fa fa-cloud-upload"></i> Custom Upload
+					    <i class="fas fa-cloud-upload-alt"></i> Upload Image
 					</label>
 					<input id="image" name="image" type="file"/>
 				</div>
