@@ -7,8 +7,15 @@ if(isset($_SESSION['user']) && $_SESSION['user']['roles_id'] == 1) {
 global $conn;
 ?>
 
+	<header id="hdr-image11" class="jumbotron jumbotron-fluid text-center m-0 p-0">
+		<div class="container pt-5"></div>
+		<div class="container pt-5"></div>
+			<div class="container pt-5">
+		   <h1 id="hdr-title" class="display-4 text-white">Users</h1>		
+			</div>
+	</header> <!-- end of header -->	
+
 	<div class="container">
-		<h4 class="text-center">User Admin Page</h4>
 		<div class="row">
 			<div class="col-sm-10 offset-sm-1">
 				<table class="table table-responsive table-striped">
@@ -39,9 +46,9 @@ global $conn;
 						 		<?php 
 						 		$id = $indiv_user['id'];
 						 		if($indiv_user['role'] =="admin"){
-						 			echo "<a href='../controllers/grant_admin.php?id=$id' class='btn btn-danger'> Revoke Admin </a>";
+						 			echo "<a href='../controllers/grant_admin.php?id=$id' class='btn btn-lg btn-outline-dark'> Revoke Admin </a>";
 						 		}  else {
-					 				echo "<a href='../controllers/grant_admin.php?id=$id' class='btn btn-primary'> Make Admin </a>";
+					 				echo "<a href='../controllers/grant_admin.php?id=$id' class='btn btn-lg btn-outline-dark'> Make Admin </a>";
 						 		}
 						 		 ?>
 						 	</td>

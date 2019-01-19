@@ -144,6 +144,16 @@ a {
 	background-attachment: fixed;
 }
 
+#hdr-image11 {
+	height: 55vh;
+	position: relative;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 72, 91, 0.5)), 
+	url(../images/anders-jilden-87205-unsplash.jpg);
+	background-size: cover;
+	background-color: #fff;
+	background-attachment: fixed;
+}
+
 
 
 .card {

@@ -13,10 +13,10 @@
 			</div>
 	</header> <!-- end of header -->	
 
-	<div class="container">
+	<div class="container py-5">
 		<div class="row">
 			<div class="col-sm-8 offset-sm-2">
-				<table class="table table-striped">
+				<table class="table table-responsive table-striped">
 					<thead>
 						<th>Transaction Code</th>
 						<th>Status</th>
