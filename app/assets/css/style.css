@@ -134,7 +134,7 @@ h1,h2,h3,h4,h5, .nav-link {
     object-fit: cover;
 }
 
-.table thead tr th, .table tbody tr td {
+.table thead tr th, .table tbody tr td, .table tfoot tr td  {
     border: none;
 }
 
