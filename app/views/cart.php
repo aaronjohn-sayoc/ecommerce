@@ -71,7 +71,7 @@
 							<?php echo $cart_total; ?>
 						</td>
 						<td class="text-center">
-							<a href="./checkout.php" class="btn btn-outline-dark">Proceed to checkout</a>
+							<a href="./checkout.php" class="btn btn-outline-dark btn-lg">Proceed to checkout</a>
 						</td>
 					</tr>
 				</tfoot>

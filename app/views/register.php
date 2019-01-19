@@ -64,8 +64,8 @@
 		</form> <!-- end form -->
 		
 		<div class="text-center py-4 mb-5">
-			<a href="./login.php" class="btn btn-outline-dark mx-1"> Login </a>
-			<button id="add_user" type="button" class="btn btn-outline-dark mx-1">Register</button>
+			<a href="./login.php" class="btn btn-outline-dark btn-lg mx-1"> Login </a>
+			<button id="add_user" type="button" class="btn btn-outline-dark btn-lg mx-1">Register</button>
 		</div>
 
 
