@@ -233,6 +233,7 @@ a {
 
 .image {
 	border: 0 none !important;
+	border-color: transparent !important;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
