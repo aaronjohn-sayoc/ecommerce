@@ -11,7 +11,7 @@
 		   <h1 id="hdr-title" class="display-4 text-white">Items</h1>		
 			</div>
 		<div class="container pt-5">
-			<a href="./new_item.php" class="btn btn-outline-light btn-lg">Add New Item</a>
+			<a href="./new_item.php" class="btn btn-outline-light btn-lg mb-3">Add New Item</a>
 		</div>
 	</header> <!-- end of header -->
 		<div class="container">
@@ -39,7 +39,7 @@
 
 						<div class="card-footer">
 							<a href="./edit_item.php?id=<?php echo $item['id']; ?>" class="btn btn-outline-light btn-lg mx-1 py-3"> Edit Item</a>
-							<a href="../controllers/delete_item.php?id=<?php echo $item['id']; ?>" class="btn btn-outline-light btn-lg mx-1 py-3"> Delete Item</a>
+							<a href="../controllers/delete_item.php?id=<?php echo $item['id']; ?>" class="btn btn-outline-light btn-lg mx-1 my-3"> Delete Item</a>
 						</div>
 
 					</div>
