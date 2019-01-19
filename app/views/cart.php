@@ -18,10 +18,9 @@
 	<div class="container my-4">
 		<div class="row">
 			<div class="col-12">
-				<h1>Cart Page</h1>
+				<h2>Your Items</h2>
 			</div>
 		</div> <!-- end row -->
-		<hr>
 
 		<div class="table-responsive">
 			<table class="table table-striped table-bordered">
