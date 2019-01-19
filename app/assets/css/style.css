@@ -85,7 +85,7 @@ h1,h2,h3,h4,h5, .nav-link {
   border-style: none !important;
   border-radius: 0 !important;
   border: 0 !important;
-  background-color: #FF6046 !important; 
+  background-color: #C34529 !important; 
 }
 
 .card-footer {
@@ -125,4 +125,8 @@ h1,h2,h3,h4,h5, .nav-link {
 
 .ekko-lightbox-nav-overlay > a:hover {
   color: white;
+}
+
+.list-group-item, .active {
+	color: #C34529 !important;
 }
