@@ -128,5 +128,6 @@ h1,h2,h3,h4,h5, .nav-link {
 }
 
 .list-group-item, .active {
-	color: #C34529 !important;
+	background-color: #C34529 !important;
+	border-color: #C34529 !important;
 }
