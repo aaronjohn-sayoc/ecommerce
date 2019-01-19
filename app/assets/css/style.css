@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5, .nav-link {
 }
 
 #hdr-image {
-	height: 100vh;
+	height: 50vh;
 	position: relative;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), 
 	url(../images/viktor-forgacs-140590-unsplash.jpg);
