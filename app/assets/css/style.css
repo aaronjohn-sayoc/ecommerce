@@ -70,3 +70,18 @@ h1,h2,h3,h4,h5, .nav-link {
     height: auto;
   }
 }
+
+.card {
+  border-style: none !important;
+  border-radius: 0 !important;
+  border: 0 !important;
+  background-color: #101010 !important; 
+}
+
+.card-footer {
+  border: 0;
+}
+
+.card-body a {
+  text-decoration-color: white;
+}

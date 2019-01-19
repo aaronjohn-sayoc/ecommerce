@@ -16,33 +16,35 @@
 			</div>
 	</header> <!-- end of header -->
 
-	
-<div class="row justify-content-center">
-    <div class="col-md-8">
-        <div class="row">
-            <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-            </a>
-            <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
-            </a>
-            <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
-            </a>
-        </div>
-        <div class="row">
-            <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
-            </a>
-            <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
-            </a>
-            <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4">
-                <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
-            </a>
-        </div>
-    </div>
-</div>
+
+	<section class="container-fluid p-0 m-0">
+		<div class="row">
+		    <div id="myimages" class="col-md-12">
+		        <div class="row">
+		            <a href="../assets/images/plush-design-studio-unsplash.jpg?image=1" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Plush Design Studio" class="col-sm-4 mx-0 px-0">
+		                <img src="../assets/images/plush-design-studio-unsplash.jpg?image=1" class="img-fluid">
+		            </a>
+		            <a href="../assets/images/olia-gozha-54465-unsplash.jpg?image=2" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Cookies On Plate" class="col-sm-4 mx-0 px-0">
+		                <img src="../assets/images/olia-gozha-54465-unsplash.jpg?image=2" class="img-fluid">
+		            </a>
+		            <a href="../assets/images/max-panama-387824-unsplash?image=3" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Chocolate Cake Strawberry Desert" class="col-sm-4 mx-0 px-0">
+		                <img src="../assets/images/max-panama-387824-unsplash?image=3" class="img-fluid">
+		            </a>
+		        </div>
+		        <div class="row">
+		            <a href="../assets/images/toa-heftiba-84799-unsplash.jpg?image=4" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Brownie Specialty" class="col-sm-4 mx-0 px-0">
+		                <img src="../assets/images/toa-heftiba-84799-unsplash.jpg?image=4" class="img-fluid">
+		            </a>
+		            <a href="../assets/images/hello-i-m-nik-1094728-unsplash.jpg?image=5" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Cupcake Variety" class="col-sm-4 mx-0 px-0">
+		                <img src="../assets/images/hello-i-m-nik-1094728-unsplash.jpg?image=5" class="img-fluid">
+		            </a>
+		            <a href="../assets/images/max-panama-387824-unsplash?image=6" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Chocolate Cake Strawberry Desert" class="col-sm-4 mx-0 px-0">
+		                <img src="../assets/images/max-panama-387824-unsplash?image=6" class="img-fluid">
+		            </a>
+		        </div>
+		    </div>
+		</div>	
+	</section> <!-- end of gallery -->
 
 
 <?php } ?>
