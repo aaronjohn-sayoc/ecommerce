@@ -17,7 +17,7 @@
 	</header> <!-- end of header -->
 
 
-	<section class="container-fluid p-0 m-0">
+	<section class="container-fluid p-0 m-0 bg-primary">
 		<div class="row">
 		    <div id="myimages" class="col-md-12">
 		        <div class="row">
