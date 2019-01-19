@@ -7,7 +7,7 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
-		<div id="navbar-nav" class="collapse navbar-collapse">
+		<div id="navbar-nav" class="collapse navbar-collapse text-center">
 			<ul class="navbar-nav ml-auto">
 				<?php 
 
@@ -23,7 +23,7 @@
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link" href="./cart.php"> Cart <span class="badge bg-danger text-white" id="cart-count">
+					<a class="nav-link" href="./cart.php"> Cart <span class="badge badge-primary text-white" id="cart-count">
 						<?php
 							if (isset($_SESSION['cart'])) {
 								echo array_sum($_SESSION['cart']);

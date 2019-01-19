@@ -12,10 +12,14 @@ a,p {
 }
 
 #brandlogo {
-	width: 12rem;
-	height: 12rem;
+	width: 13rem;
+	height: 13rem;
 }
 
 .nav-item > .nav-link {
-	font-size: 1.5rem;
+	font-size: 1.7rem;
+}
+
+.badge-primary {
+	background-color: #FF6046;
 }
