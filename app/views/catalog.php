@@ -101,7 +101,7 @@
 								<!-- add to cart -->
 								<div class="card-footer">
 									<input type="number" class="form-control" value="1">
-									<button type="submit" class="btn btn-block btn-outline-light add-to-cart my-3" data-id="<?php echo $item['id']; ?>"> Add to cart</button>
+									<button type="submit" class="btn btn-block btn-outline-light btn-lg add-to-cart my-3" data-id="<?php echo $item['id']; ?>"> Add to cart</button>
 								</div>
 
 							</div> <!-- end card -->
