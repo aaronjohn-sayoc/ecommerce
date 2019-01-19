@@ -10,7 +10,7 @@
 			</div>
 	</header> <!-- end of header -->	
 	
-	<div class="container py-4">
+	<div class="container py-5">
 
 		<form>
 			<div class="form-group">
@@ -26,9 +26,9 @@
 			</div>
 
 		</form>
-			<div class="text-center py-4">
-				<a href="./register.php" class="btn btn-outline-dark">Register</a>
-				<button type="button" class="btn btn-outline-dark" id="login">Login</button>
+			<div class="text-center py-5">
+				<a href="./register.php" class="btn btn-outline-dark mx-3">Register</a>
+				<button type="button" class="btn btn-outline-dark mx-3" id="login">Login</button>
 			</div>
 	</div> <!-- end container -->
 
