@@ -21,7 +21,7 @@
 			</div>
 	</header> <!-- end of header -->	
 
-		<div class="container">
+	<div class="container">
 
 	 <form target="_blank" method="POST" action="../controllers/placeorder.php">
 	 	<div class="container mt-4">
@@ -107,6 +107,7 @@
 			</div> <!-- end order summary row -->
 	 	</div> <!-- end container -->
 	 </form> <!-- end form -->
+</div>
 
 <?php } else {
 	header('Location: ./error.php');
