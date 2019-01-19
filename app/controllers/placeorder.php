@@ -97,7 +97,7 @@ function generate_new_transaction_number() {
 
 	$staff_email = 'johnnydepthh123@gmail.com';
 	$customer_email = $_SESSION['user']['email'];          //
-	$subject = 'Qstore Phils - Order Confirmation';
+	$subject = 'Crown Bakery - Order Confirmation';
 	$body = '<div style="text-transform:uppercase;"><h3>Reference No.: '.$transaction_number.'</h3></div>'."<div>Ship to $address</div>";
 	try {
 	    //Server settings
@@ -111,7 +111,7 @@ function generate_new_transaction_number() {
 	    $mail->Port = 587;                                    // TCP port to connect to
 
 	    //Recipients
-	    $mail->setFrom($staff_email, 'Qstore');
+	    $mail->setFrom($staff_email, 'Crown Bakery');
 	    $mail->addAddress($customer_email);  // Name is optional
 
 	    //Content
@@ -161,8 +161,8 @@ function generate_new_transaction_number() {
     $transaction = new Transaction();
     $transaction ->setAmount($amount)
                 ->setItemList($item_list)
-                ->setDescription('Payment for Qstore Purchase')
-                ->setInvoiceNumber(uniqid("Qstore_"));
+                ->setDescription('Payment for Crown Bakery')
+                ->setInvoiceNumber(uniqid("cbakery_"));
 
     $redirectUrls = new RedirectUrls();
     $redirectUrls

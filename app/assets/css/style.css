@@ -26,6 +26,11 @@ a {
 	color: #FF6046;
 }
 
+a:hover {
+	color: #FF6046;
+	text-decoration: none;
+}
+
 
 #brandlogo {
 	width: 13rem;
@@ -174,6 +179,16 @@ a {
 	background-attachment: fixed;
 }
 
+#hdr-image14 {
+	height: 70vh;
+	position: relative;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 72, 91, 0.5)), 
+	url(../images/willian-justen-de-vasconcellos-510890-unsplash.jpg);
+	background-size: cover;
+	background-color: #fff;
+	background-attachment: fixed;
+}
+
 
 
 
@@ -278,21 +293,21 @@ input[type="file"] {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5, #hdr-image6, #hdr-image7, #hdr-image8, #hdr-image9, #hdr-image10, #hdr-image11, #hdr-image12, #hdr-image13 {
+  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5, #hdr-image6, #hdr-image7, #hdr-image8, #hdr-image9, #hdr-image10, #hdr-image11, #hdr-image12, #hdr-image13, #hdr-image14 {
     background-attachment: scroll;
     height: auto;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5, #hdr-image6, #hdr-image7, #hdr-image8, #hdr-image9, #hdr-image10, #hdr-image11, #hdr-image12, #hdr-image13 {
+  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5, #hdr-image6, #hdr-image7, #hdr-image8, #hdr-image9, #hdr-image10, #hdr-image11, #hdr-image12, #hdr-image13, #hdr-image14 {
     background-attachment: scroll;
     height: auto;
   }
 }
 
 @media screen and (max-width: 576px) {
-  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5, #hdr-image6, #hdr-image7, #hdr-image8, #hdr-image9, #hdr-image10, #hdr-image11, #hdr-image12, #hdr-image13 {
+  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5, #hdr-image6, #hdr-image7, #hdr-image8, #hdr-image9, #hdr-image10, #hdr-image11, #hdr-image12, #hdr-image13, #hdr-image14 {
     background-attachment: scroll;
     height: auto;
   }
