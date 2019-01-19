@@ -131,3 +131,9 @@ h1,h2,h3,h4,h5, .nav-link {
 	background-color: #C34529 !important;
 	border-color: #C34529 !important;
 }
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
