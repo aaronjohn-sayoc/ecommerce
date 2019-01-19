@@ -78,11 +78,5 @@
 	</nav> <!-- end nav -->
 
 <script type="text/javascript">
-    $(document).ready(function () {
-        var url = window.location;
-        $('ul.nav a[href="'+ url +'"]').parent().addClass('active');
-        $('ul.nav a').filter(function() {
-             return this.href == url;
-        }).parent().addClass('active');
-    });
+$('a[href="' + this.location.pathname + '"]').parents('li,ul').addClass('active');
 </script> 
