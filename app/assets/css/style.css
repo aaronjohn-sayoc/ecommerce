@@ -90,6 +90,15 @@ h1,h2,h3,h4,h5, .nav-link {
 	background-attachment: fixed;
 }
 
+#hdr-image6 {
+	height: 50vh;
+	position: relative;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 72, 91, 0.5)), 
+	url(../images/willian-justen-de-vasconcellos-550613-unsplash.jpg);
+	background-size: cover;
+	background-color: #fff;
+	background-attachment: fixed;
+}
 
 
 .card {

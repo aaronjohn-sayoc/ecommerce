@@ -7,6 +7,15 @@
 	// var_dump($user);
 
  ?>
+
+	<header id="hdr-image6" class="jumbotron jumbotron-fluid text-center m-0 p-0">
+		<div class="container pt-5"></div>
+		<div class="container pt-5"></div>
+			<div class="container pt-5">
+		   <h1 id="hdr-title" class="display-4 text-white">Profile</h1>		
+			</div>
+	</header> <!-- end of header -->
+
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3 my-2">
