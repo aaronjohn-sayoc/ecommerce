@@ -27,8 +27,8 @@
 		            <a href="../assets/images/olia-gozha-54465-unsplash.jpg?image=2" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Cookies On Plate" class="col-sm-4 mx-0 px-0">
 		                <img src="../assets/images/olia-gozha-54465-unsplash.jpg?image=2" class="img-fluid">
 		            </a>
-		            <a href="../assets/images/max-panama-387824-unsplash?image=3" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Chocolate Cake Strawberry Desert" class="col-sm-4 mx-0 px-0">
-		                <img src="../assets/images/max-panama-387824-unsplash?image=3" class="img-fluid">
+		            <a href="../assets/images/max-panama-387824-unsplash.jpg?image=3" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Chocolate Cake Strawberry Desert" class="col-sm-4 mx-0 px-0">
+		                <img src="../assets/images/max-panama-387824-unsplash.jpg?image=3" class="img-fluid">
 		            </a>
 		        </div>
 		        <div class="row">

@@ -85,3 +85,30 @@ h1,h2,h3,h4,h5, .nav-link {
 .card-body a {
   text-decoration-color: white;
 }
+
+.modal-body {
+  padding: 0 !important;
+}
+.modal-header {
+  background-color: rgba(0,0,0,0.6)
+  border: 0 !important;
+  border-style: none;
+}
+
+.modal-content {
+  border: 0 !important;
+}
+
+.modal-content {
+  border-radius: 0 !important;
+  background-color: rgba(0,0,0,0.6)
+}
+
+.modal-title {
+  color: white;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
