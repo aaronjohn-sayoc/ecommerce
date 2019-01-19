@@ -14,7 +14,7 @@
 	// var_dump($item);
 	?>
 
-	<header id="hdr-image2" class="jumbotron jumbotron-fluid text-center m-0 p-0">
+	<header id="hdr-image8" class="jumbotron jumbotron-fluid text-center m-0 p-0">
 		<div class="container pt-5"></div>
 		<div class="container pt-5"></div>
 			<div class="container pt-5">
@@ -22,7 +22,7 @@
 			</div>
 	</header> <!-- end of header -->
 
-	<div class="container">
+	<div class="container py-3">
 		<div class="row">
 			<div class="col-sm-8 offset-sm-2">
 				<form action="../controllers/process_edit_item.php" method="POST">
