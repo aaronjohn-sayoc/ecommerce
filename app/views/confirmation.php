@@ -5,17 +5,26 @@ function get_page_content(){
 
 	global $conn;
      ?>
+
+    <header id="hdr-image13" class="jumbotron jumbotron-fluid text-center m-0 p-0">
+        <div class="container pt-5"></div>
+        <div class="container pt-5"></div>
+            <div class="container pt-5">
+           <h1 id="hdr-title" class="display-4 text-white">Orders</h1>      
+            </div>
+    </header> <!-- end of header -->        
+
 	<div class="container main-container my-4">
         <div class="row">
-            <div class="col-sm-12">
-                <h1 class="text-center">Confirmation Page</h1>
+            <div class="col-sm-12 text-center">
+                <h1>Confirmation Page</h1>
 
                 <h3>Reference No.: <?php echo $_SESSION['new_txn_number']; ?></h3>
                 <?php unset($_SESSION['new_txn_number']); ?>
 
                 <p>Thank you for shopping! Your order is being processed.</p>
 
-                <a class="btn btn-primary" href="./catalog.php">Continue Shopping</a>
+                <a class="btn btn-outline-dark btn-lg" href="./catalog.php">Continue Shopping</a>
             </div>
         </div>
     </div>
