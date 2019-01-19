@@ -3,9 +3,10 @@
 <?php function get_page_content() { ?>
 
 
-	<header id="hdr-image14" class="jumbotron jumbotron-fluid text-center m-0 p-0">
+	<header id="hdr-image14" class="jumbotron jumbotron-fluid text-center m-0 p-0 text-white">
+			<div class="container pt-5"></div>
 			<div class="container pt-5">
-		   <h1 id="hdr-title" class="display-4 text-white">Error 403 Forbidden</h1>		
+		   <h1 id="hdr-title" class="display-4">Error 403 Forbidden</h1>		
 			</div>
 		<div class="container pt-5">
 			<p>You do not have the rights to access this page!</p>
