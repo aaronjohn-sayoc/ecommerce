@@ -7,11 +7,11 @@
 		<div class="container pt-5"></div>
 		<div class="container pt-5"></div>
 			<div class="container pt-5">
-		   <h1 id="hdr-title" class="display-4 text-white">Login</h1>		
+		   <h1 id="hdr-title" class="display-4 text-white">Register</h1>		
 			</div>
 	</header> <!-- end of header -->
 
-	<div class="container">
+	<div class="container py-5">
 
 		<form>
 			<div class="row">
@@ -64,8 +64,8 @@
 		</form> <!-- end form -->
 		
 		<div class="text-center py-4 mb-5">
-			<a href="./login.php" class="btn btn-secondary"> Login </a>
-			<button id="add_user" type="button" class="btn btn-primary">Register</button>
+			<a href="./login.php" class="btn btn-outline-dark mx-1"> Login </a>
+			<button id="add_user" type="button" class="btn btn-outline-dark mx-1">Register</button>
 		</div>
 
 
