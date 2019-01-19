@@ -186,9 +186,14 @@ h1,h2,h3,h4,h5, .nav-link {
 	color: white;
 }
 
+.tab-pane {
+	background-color: #ff485b !important;
+	border-color: #ff485b !important;
+}
+
 .tab-pane:hover {
-	background-color: #C34529 !important;
-	border-color: #C34529 !important;
+	background-color: #ff485b !important;
+	border-color: #ff485b !important;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
