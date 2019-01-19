@@ -38,7 +38,7 @@
 						</div> <!-- end card body -->
 
 						<div class="card-footer">
-							<a href="./edit_item.php?id=<?php echo $item['id']; ?>" class="btn btn-outline-light btn-lg mx-1 py-3"> Edit Item</a>
+							<a href="./edit_item.php?id=<?php echo $item['id']; ?>" class="btn btn-outline-light btn-lg mx-1 my-3"> Edit Item</a>
 							<a href="../controllers/delete_item.php?id=<?php echo $item['id']; ?>" class="btn btn-outline-light btn-lg mx-1 my-3"> Delete Item</a>
 						</div>
 
