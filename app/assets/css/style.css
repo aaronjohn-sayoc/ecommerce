@@ -50,22 +50,32 @@ h1,h2,h3,h4,h5, .nav-link {
 	background-attachment: fixed;
 }
 
+#hdr-image2 {
+	height: 50vh;
+	position: relative;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 72, 91, 0.5)), 
+	url(../images/patricia-prudente-456054-unsplash.jpg);
+	background-size: cover;
+	background-color: #fff;
+	background-attachment: fixed;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  #hdr-image {
+  #hdr-image, #hdr-image2 {
     background-attachment: scroll;
     height: auto;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  #hdr-image {
+  #hdr-image, #hdr-image2 {
     background-attachment: scroll;
     height: auto;
   }
 }
 
 @media screen and (max-width: 576px) {
-  #hdr-image {
+  #hdr-image, #hdr-image2 {
     background-attachment: scroll;
     height: auto;
   }
