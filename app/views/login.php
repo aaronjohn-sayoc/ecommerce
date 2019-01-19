@@ -6,11 +6,11 @@
 		<div class="container pt-5"></div>
 		<div class="container pt-5"></div>
 			<div class="container pt-5">
-		   <h1 id="hdr-title" class="display-4 text-white">Menu</h1>		
+		   <h1 id="hdr-title" class="display-4 text-white">Login</h1>		
 			</div>
 	</header> <!-- end of header -->	
 	
-	<div class="container">
+	<div class="container py-4">
 
 		<form>
 			<div class="form-group">
@@ -27,8 +27,8 @@
 
 		</form>
 			<div class="text-center py-4">
-				<a href="./register.php" class="btn btn-secondary">Register</a>
-				<button type="button" class="btn btn-primary" id="login">Login</button>
+				<a href="./register.php" class="btn btn-outline-dark">Register</a>
+				<button type="button" class="btn btn-outline-dark" id="login">Login</button>
 			</div>
 	</div> <!-- end container -->
 
