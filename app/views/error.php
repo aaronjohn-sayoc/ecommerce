@@ -1,5 +1,9 @@
 <?php require_once '../partials/template.php'; ?>
 
+<?php
+$title = 'Crown Bakery - Error 403 Forbidden'
+ ?>
+
 <?php function get_page_content() { ?>
 
 

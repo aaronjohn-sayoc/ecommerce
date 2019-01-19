@@ -1,5 +1,9 @@
 <?php require_once '../partials/template.php'; ?>
 
+<?php
+$title = 'Crown Bakery - Cart'
+ ?>
+
 <?php function get_page_content() { 
 	if(!isset($_SESSION['user']) || (isset($_SESSION['user'])) && $_SESSION['user']['roles_id'] == 2) {
 

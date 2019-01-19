@@ -1,5 +1,9 @@
 <?php require_once '../partials/template.php'; ?>
 
+<?php
+$title = 'Crown Bakery - Register'
+ ?>
+
 <?php function get_page_content() { 
 	global $conn;  ?>
 

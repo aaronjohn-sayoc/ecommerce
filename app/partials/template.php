@@ -1,5 +1,7 @@
 <?php session_start() ?>
 
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-	<title>Crown Bakery</title>
+	<title><?php echo $title ?></title>
 
 	<!-- google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Rubik|Karla" rel="stylesheet">

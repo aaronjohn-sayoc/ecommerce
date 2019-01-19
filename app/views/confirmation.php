@@ -5,6 +5,9 @@ function get_page_content(){
 
 	global $conn;
      ?>
+<?php
+$title = 'Crown Bakery - Confirmation'
+ ?>
 
     <header id="hdr-image13" class="jumbotron jumbotron-fluid text-center m-0 p-0">
         <div class="container pt-5"></div>

@@ -1,5 +1,9 @@
 <?php require_once '../partials/template.php'; ?>
 
+<?php
+$title = 'Crown Bakery - Login'
+ ?>
+
 <?php function get_page_content() { ?>
 
 	<header id="hdr-image4" class="jumbotron jumbotron-fluid text-center m-0 p-0">

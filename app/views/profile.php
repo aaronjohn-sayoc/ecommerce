@@ -2,6 +2,10 @@
 <?php function get_page_content(){
 	global $conn;
  ?>
+<?php
+$title = 'Crown Bakery - Profile'
+ ?>
+
 <?php $user = $_SESSION['user'];
 	
 	// var_dump($user);

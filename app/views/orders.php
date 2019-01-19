@@ -1,5 +1,9 @@
 <?php require_once '../partials/template.php'; ?>
 
+<?php
+$title = 'Crown Bakery - Orders'
+ ?>
+
 <?php function get_page_content() { 
 	if(isset($_SESSION['user']) && $_SESSION['user']['roles_id'] == 1) {
 		global $conn;
