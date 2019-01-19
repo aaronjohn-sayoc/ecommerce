@@ -28,7 +28,7 @@
 			 ?>
 				<div class="col-sm-3 py-3 my-3">
 					<div class="card hvr-float h-100">
-						<img src="<?php echo $item['image_path']; ?>" class="card-img-top img-fluid hvr-grow">
+						<img src="<?php echo $item['image_path']; ?>" class="card-img-top img-fluid hvr-float">
 						<div class="card-body text-white">
 							<h4 class="card-title"> <?php echo $item['name']; ?></h4>
 							<p class="card-text"><?php echo $item['description']; ?></p>

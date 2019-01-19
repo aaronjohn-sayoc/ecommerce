@@ -13,7 +13,15 @@
 
 	 ?>
 
-	 <h1>This is the checkout page</h1>
+	<header id="hdr-image12" class="jumbotron jumbotron-fluid text-center m-0 p-0">
+		<div class="container pt-5"></div>
+		<div class="container pt-5"></div>
+			<div class="container pt-5">
+		   <h1 id="hdr-title" class="display-4 text-white">Orders</h1>		
+			</div>
+	</header> <!-- end of header -->	
+
+		<div class="container">
 
 	 <form target="_blank" method="POST" action="../controllers/placeorder.php">
 	 	<div class="container mt-4">
@@ -65,12 +73,11 @@
 				</div> <!-- end total price -->
 			</div> <!-- end row -->
 
-			<hr>
-			<button type="submit" class="btn btn-primary btn-block">Place Order Now</button>
+			<button type="submit" class="btn btn-outline-dark btn-block">Place Order Now</button>
 
 			<div class="row cart-items mt-4">
 				<div class="table-responsive">
-					<table class="table table-striped table-bordered" id="cart-items">
+					<table class="table table-striped" id="cart-items">
 						<thead>
 							<tr class="text-center">
 								<th colspan="2"> Item Name</th>
