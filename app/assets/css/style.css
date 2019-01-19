@@ -159,11 +159,13 @@ h1,h2,h3,h4,h5, .nav-link {
 }
 
 .form-control {
-	border-color: #343a40 !important;
+	border: none !important;
+	background-color: #efefef;
 }
 
 .card-footer > .form-control {
 	border: none !important;
+	background-color: #fff;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
