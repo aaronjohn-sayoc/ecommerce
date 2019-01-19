@@ -27,8 +27,8 @@
 
 		</form>
 			<div class="text-center py-5">
-				<a href="./register.php" class="btn btn-outline-dark mx-3">Register</a>
-				<button type="button" class="btn btn-outline-dark mx-3" id="login">Login</button>
+				<a href="./register.php" class="btn btn-outline-dark mx-1">Register</a>
+				<button type="button" class="btn btn-outline-dark mx-1" id="login">Login</button>
 			</div>
 	</div> <!-- end container -->
 
