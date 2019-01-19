@@ -61,7 +61,7 @@
 					</div>
 
 					<input type="hidden" name="id" value="<?php echo $item['id']; ?>">
-					<button type="submit" class="btn btn-primary">Update Changes</button>
+					<button type="submit" class="btn btn-outline-dark">Update Changes</button>
 				</form> <!-- end edit form -->
 			</div> <!-- end 8 cols -->
 		</div> <!-- end row -->
