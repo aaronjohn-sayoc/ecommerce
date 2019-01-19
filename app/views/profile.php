@@ -10,7 +10,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3">
-				<div class="list-group" id="list-tab" role="tablist">
+				<div class="list-group text-white" id="list-tab" role="tablist">
 					<a class="list-group-item" href="#profile" data-toggle="list" role="tab">
 						User Information
 					</a>
@@ -19,7 +19,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-lg-7">
+			<div class="col-lg-7 text-white">
 				<div class="tab-content">
 					<div class="tab-pane" id="profile" role="tabpanel">
 
