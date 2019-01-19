@@ -24,22 +24,11 @@
 		            <a href="../assets/images/rawpixel-460973-unsplash.jpg?image=1" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Christmas Themed Cupcakes" class="col-sm-4 mx-0 px-0">
 		                <img src="../assets/images/rawpixel-460973-unsplash.jpg?image=1" class="img-fluid">
 		            </a>
-		            <a href="../assets/images/olia-gozha-54465-unsplash.jpg?image=2" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Cookies On Plate" class="col-sm-4 mx-0 px-0">
-		                <img src="../assets/images/olia-gozha-54465-unsplash.jpg?image=2" class="img-fluid">
+		            <a href="../assets/images/hello-i-m-nik-1094728-unsplash.jpg?image=2" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Cookies On Plate" class="col-sm-4 mx-0 px-0">
+		                <img src="../assets/images/hello-i-m-nik-1094728-unsplash.jpg?image=2" class="img-fluid">
 		            </a>
 		            <a href="../assets/images/max-panama-387824-unsplash.jpg?image=3" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Chocolate Cake Strawberry Desert" class="col-sm-4 mx-0 px-0">
 		                <img src="../assets/images/max-panama-387824-unsplash.jpg?image=3" class="img-fluid">
-		            </a>
-		        </div>
-		        <div class="row">
-		            <a href="../assets/images/rasmus-mikkelstrup-468412-unsplash.jpg?image=4" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Brownie Paradise" class="col-sm-4 mx-0 px-0">
-		                <img src="../assets/images/rasmus-mikkelstrup-468412-unsplash.jpg?image=4" class="img-fluid">
-		            </a>
-		            <a href="../assets/images/hello-i-m-nik-1094728-unsplash.jpg?image=5" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Cupcake Variety" class="col-sm-4 mx-0 px-0">
-		                <img src="../assets/images/hello-i-m-nik-1094728-unsplash.jpg?image=5" class="img-fluid">
-		            </a>
-		            <a href="../assets/images/erol-ahmed-260730-unsplash.jpg?image=6" data-toggle="lightbox" data-gallery="bakery-gallery" data-title="Baking Cookie Homemade" class="col-sm-4 mx-0 px-0">
-		                <img src="../assets/images/erol-ahmed-260730-unsplash.jpg?image=6" class="img-fluid">
 		            </a>
 		        </div>
 		    </div>
