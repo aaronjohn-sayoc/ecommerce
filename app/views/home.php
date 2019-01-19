@@ -6,7 +6,7 @@
 		<div class="container pt-5"></div>
 		<div class="container pt-5"></div>
 			<div class="container pt-5">
-		   <h1 id="hdr-title" class="display-3 pt-3 text-white">The Best Cupcakes Ever!</h1>		
+		   <h1 id="hdr-title" class="display-4 pt-3 text-white">The Best Cupcakes Ever!</h1>		
 			</div>
 			<div class="container pt-5">
 		   <p id="hdr-slogan" class="text-white">Only the finest ingredients are used.</p>		
