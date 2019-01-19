@@ -10,7 +10,7 @@
 		<div class="container pt-5"></div>
 		<div class="container pt-5"></div>
 			<div class="container pt-5">
-		   <h1 id="hdr-title" class="display-4 text-white">Cart</h1>		
+		   <h1 id="hdr-title" class="display-4 text-white">Cart Page</h1>		
 			</div>
 	</header> <!-- end of header -->
 
