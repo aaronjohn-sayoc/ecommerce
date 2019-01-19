@@ -12,7 +12,7 @@
 		   <p id="hdr-slogan" class="text-white">Only the finest ingredients are used!</p>		
 			</div>
 			<div class="container py-5">
-		   <a class="btn btn-outline-light btn-lg" href="#">Shop Now</a>			
+		   <a class="btn btn-outline-light btn-lg" href="./catalog.php">Shop Now</a>			
 			</div>
 	</header> <!-- end of header -->
 

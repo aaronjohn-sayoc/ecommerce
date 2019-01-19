@@ -19,7 +19,7 @@
 				</li>
 
 				<li class="nav-item mx-1">
-					<a class="nav-link" href="./catalog.php"> Catalog </a>
+					<a class="nav-link" href="./catalog.php"> Shop </a>
 				</li>
 
 				<li class="nav-item mx-1">
