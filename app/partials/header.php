@@ -23,7 +23,7 @@
 				</li>
 
 				<li class="nav-item mx-1">
-					<a class="nav-link" href="./cart.php"> Cart <span class="badge badge-primary text-white" id="cart-count">
+					<a class="nav-link" href="./cart.php"><i class="fas fa-shopping-cart"></i> Cart <span class="badge badge-primary text-white" id="cart-count">
 						<?php
 							if (isset($_SESSION['cart'])) {
 								echo array_sum($_SESSION['cart']);
