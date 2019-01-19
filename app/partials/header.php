@@ -1,6 +1,6 @@
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-light bg-white p-5">
 		<a class="navbar-brand" href="./home.php">
-			<i class="fas fa-utensils"></i> Tapsimeals Foodie
+			<img src="../assets/images/crownbakery.png">
 		</a>
 
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
@@ -23,7 +23,7 @@
 				</li>
 
 				<li class="nav-item">
-					<a class="nav-link" href="./cart.php"> Cart <span class="badge bg-light text-dark" id="cart-count">
+					<a class="nav-link" href="./cart.php"> Cart <span class="badge bg-danger text-white" id="cart-count">
 						<?php
 							if (isset($_SESSION['cart'])) {
 								echo array_sum($_SESSION['cart']);
