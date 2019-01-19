@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5, .nav-link {
 }
 
 #hdr-image {
-
+	height: 70vh;
 	position: relative;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 72, 91, 0.5)), 
 	url(../images/viktor-forgacs-140590-unsplash.jpg);
@@ -53,17 +53,20 @@ h1,h2,h3,h4,h5, .nav-link {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   #hdr-image {
     background-attachment: scroll;
+    height: auto;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   #hdr-image {
     background-attachment: scroll;
+    height: auto;
   }
 }
 
 @media screen and (max-width: 576px) {
   #hdr-image {
     background-attachment: scroll;
+    height: auto;
   }
 }
