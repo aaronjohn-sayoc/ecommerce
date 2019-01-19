@@ -3,7 +3,7 @@
 			<img id="brandlogo" src="../assets/images/crownbakery.png">
 		</a>
 
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
+		<button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbar-nav">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 
