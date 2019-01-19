@@ -11,7 +11,7 @@
 			<div class="container pt-5">
 		   <p id="hdr-slogan" class="text-white">Only the finest ingredients are used.</p>		
 			</div>
-			<div class="container pt-5">
+			<div class="container py-5">
 		   <a class="btn btn-outline-light btn-lg" href="#">Shop Now</a>			
 			</div>
 	</header> <!-- end of header -->
