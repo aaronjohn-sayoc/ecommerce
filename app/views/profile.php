@@ -21,7 +21,7 @@
 			</div>
 			<div class="col-lg-7 text-white">
 				<div class="tab-content">
-					<div class="tab-pane" id="profile" role="tabpanel">
+					<div class="tab-pane mb-3" id="profile" role="tabpanel">
 
 						<h3 class="p-3">User Information</h3>
 
@@ -48,7 +48,7 @@
 							</div>
 						</form>
 					</div>
-					<div class="tab-pane" id="history" role="tabpanel">
+					<div class="tab-pane mb-3" id="history" role="tabpanel">
 						<div class="row">
 							<div class="col-md-6">
 								<h3 class="p-3">Order History</h3>
