@@ -18,7 +18,7 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3 my-2">
+			<div class="col-lg-3 my-4">
 				<div class="list-group" id="list-tab" role="tablist">
 					<a class="list-group-item mb-1" href="#profile" data-toggle="list" role="tab">
 						User Information
