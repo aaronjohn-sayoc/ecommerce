@@ -14,7 +14,7 @@
 		<div class="container pt-5"></div>
 		<div class="container pt-5"></div>
 			<div class="container pt-5">
-		   <h1 id="hdr-title" class="display-4 pt-3 text-white">The Exquisite Bakery In The South</h1>		
+		   <h1 id="hdr-title" class="display-4 pt-3 text-white">Menu</h1>		
 			</div>
 	</header> <!-- end of header -->
 
@@ -88,10 +88,10 @@
 							<div class="card h-100">
 								<img class="card-img-top" src="<?php echo $item['image_path']; ?>">
 								<div class="card-body">
-									<h4 class="card-title">
+									<h4 class="card-title text-white text-center">
 										<?php echo $item['name']; ?>
 									</h4>
-									<p class="card-text">
+									<p class="card-text text-white text-center">
 										<?php echo $item['description']; ?>
 										<br>
 										<?php echo $item['price']; ?>
@@ -101,7 +101,7 @@
 								<!-- add to cart -->
 								<div class="card-footer">
 									<input type="number" class="form-control" value="1">
-									<button type="submit" class="btn btn-block btn-outline-secondary add-to-cart" data-id="<?php echo $item['id']; ?>"> Add to cart</button>
+									<button type="submit" class="btn btn-block btn-outline-light add-to-cart" data-id="<?php echo $item['id']; ?>"> Add to cart</button>
 								</div>
 
 							</div> <!-- end card -->

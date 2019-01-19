@@ -85,7 +85,7 @@ h1,h2,h3,h4,h5, .nav-link {
   border-style: none !important;
   border-radius: 0 !important;
   border: 0 !important;
-  background-color: #101010 !important; 
+  background-color: #FF6046 !important; 
 }
 
 .card-footer {
@@ -93,7 +93,7 @@ h1,h2,h3,h4,h5, .nav-link {
 }
 
 .card-body a {
-  text-decoration-color: white;
+  text-decoration-color: #FF6046;
 }
 
 .modal-body {
