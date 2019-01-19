@@ -8,7 +8,7 @@
 		</button>
 
 		<div id="navbar-nav" class="collapse navbar-collapse text-center">
-			<ul class="navbar-nav ml-auto">
+			<ul class="navbar-nav ml-auto px-5">
 				<?php 
 
 					if(!isset($_SESSION['user']) || (isset($_SESSION['user'])) && ($_SESSION['user']['roles_id'] ==2)) {
