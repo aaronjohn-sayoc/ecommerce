@@ -163,6 +163,11 @@ h1,h2,h3,h4,h5, .nav-link {
 	background-color: #efefef;
 }
 
+.form-control:hover {
+	border: none !important;
+	background-color: #efefef;
+}
+
 .card-footer > .form-control {
 	border: none !important;
 	background-color: #fff;
