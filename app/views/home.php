@@ -6,7 +6,13 @@
 		<div class="container pt-5"></div>
 		<div class="container pt-5"></div>
 			<div class="container pt-5">
-		   <h1 id="hdr-title" class="display-4 pt-3 text-white">Menu</h1>				
+		   <h1 id="hdr-title" class="display-4 pt-3 text-white">The Exquisite Bakery In The South</h1>		
+			</div>
+			<div class="container pt-5">
+		   <p id="hdr-slogan" class="text-white">Only the finest ingredients are used!</p>		
+			</div>
+			<div class="container py-5">
+		   <a class="btn btn-outline-light btn-lg" href="#">Shop Now</a>			
 			</div>
 	</header> <!-- end of header -->
 
