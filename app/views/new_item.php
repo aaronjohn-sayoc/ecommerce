@@ -6,7 +6,15 @@
 ?>
 <?php global $conn; ?>
 
-<div class="container">
+	<header id="hdr-image9" class="jumbotron jumbotron-fluid text-center m-0 p-0">
+		<div class="container pt-5"></div>
+		<div class="container pt-5"></div>
+			<div class="container pt-5">
+		   <h1 id="hdr-title" class="display-4 text-white">Add Item</h1>		
+			</div>
+	</header> <!-- end of header -->
+
+<div class="container py-5">
 	<div class="row">
 		<div class="col-sm-8 offset-sm-2">
 			<form action="../controllers/process_add_item.php" method="POST" enctype="multipart/form-data">
@@ -42,7 +50,7 @@
 					<label for="image">Image:</label>
 					<input type="file" id="image" class="form-control" name="image" required>
 				</div>
-				<button type="submit" class="btn btn-block btn-primary">Add New Item</button>
+				<button type="submit" class="btn btn-block btn-outline-dark mb-3">Add New Item</button>
 			</form> <!-- end form -->
 		</div> <!-- end 8 cols -->
 	</div> <!-- end row -->
