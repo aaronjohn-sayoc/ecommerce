@@ -55,7 +55,7 @@ a {
 }
 
 #hdr-image2 {
-	height: 50vh;
+	height: 55vh;
 	position: relative;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 72, 91, 0.5)), 
 	url(../images/sharon-mccutcheon-526414-unsplash.jpg);
@@ -65,7 +65,7 @@ a {
 }
 
 #hdr-image3 {
-	height: 50vh;
+	height: 55vh;
 	position: relative;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 72, 91, 0.5)), 
 	url(../images/amy-shamblen-651683-unsplash.jpg);
@@ -75,7 +75,7 @@ a {
 }
 
 #hdr-image4 {
-	height: 50vh;
+	height: 55vh;
 	position: relative;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 72, 91, 0.5)), 
 	url(../images/w-349443-unsplash.jpg);
@@ -85,7 +85,7 @@ a {
 }
 
 #hdr-image5 {
-	height: 50vh;
+	height: 55vh;
 	position: relative;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 72, 91, 0.5)), 
 	url(../images/austin-chan-275640-unsplash.jpg);
@@ -129,6 +129,16 @@ a {
 	position: relative;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 72, 91, 0.5)), 
 	url(../images/claudia-alexandra-362406-unsplash.jpg);
+	background-size: cover;
+	background-color: #fff;
+	background-attachment: fixed;
+}
+
+#hdr-image10 {
+	height: 55vh;
+	position: relative;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 72, 91, 0.5)), 
+	url(../images/chuttersnap-297550-unsplash.jpg);
 	background-size: cover;
 	background-color: #fff;
 	background-attachment: fixed;
@@ -236,21 +246,21 @@ input[type="file"] {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5, #hdr-image6, #hdr-image7, #hdr-image8, #hdr-image9 {
+  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5, #hdr-image6, #hdr-image7, #hdr-image8, #hdr-image9, #hdr-image10 {
     background-attachment: scroll;
     height: auto;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5, #hdr-image6, #hdr-image7, #hdr-image8, #hdr-image9 {
+  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5, #hdr-image6, #hdr-image7, #hdr-image8, #hdr-image9, #hdr-image10 {
     background-attachment: scroll;
     height: auto;
   }
 }
 
 @media screen and (max-width: 576px) {
-  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5, #hdr-image6, #hdr-image7, #hdr-image8, #hdr-image9 {
+  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5, #hdr-image6, #hdr-image7, #hdr-image8, #hdr-image9, #hdr-image10 {
     background-attachment: scroll;
     height: auto;
   }

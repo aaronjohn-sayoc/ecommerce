@@ -5,8 +5,15 @@
 		global $conn;
 	?>
 
+	<header id="hdr-image10" class="jumbotron jumbotron-fluid text-center m-0 p-0">
+		<div class="container pt-5"></div>
+		<div class="container pt-5"></div>
+			<div class="container pt-5">
+		   <h1 id="hdr-title" class="display-4 text-white">Orders</h1>		
+			</div>
+	</header> <!-- end of header -->	
+
 	<div class="container">
-		<h4>Orders Admin Page</h4>
 		<div class="row">
 			<div class="col-sm-8 offset-sm-2">
 				<table class="table table-striped">
@@ -28,8 +35,8 @@
 						 	<td><?php echo $order['status']; ?></td>
 						 	<td>
 						 		<?php if($order['status']=="pending") { ?>
-						 			<a href="../controllers/complete_order.php?id=<?php echo $order['id']; ?>" class="btn btn-success">Complete Order</a>
-						 			<a href="../controllers/cancel_order.php?id=<?php echo $order['id']; ?>" class="btn btn-danger">Cancel Order</a>
+						 			<a href="../controllers/complete_order.php?id=<?php echo $order['id']; ?>" class="btn btn-lg btn-outline-dark">Complete Order</a>
+						 			<a href="../controllers/cancel_order.php?id=<?php echo $order['id']; ?>" class="btn btn-lg btn-outline-dark">Cancel Order</a>
 						 		<?php }; ?>
 						 	</td>
 						 </tr>
