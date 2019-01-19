@@ -1,4 +1,4 @@
-	<nav class="navbar navbar-expand-lg navbar-light bg-white p-5">
+	<nav class="navbar navbar-expand-lg navbar-light bg-white p-2">
 		<a class="navbar-brand" href="./home.php">
 			<img src="../assets/images/crownbakery.png">
 		</a>
