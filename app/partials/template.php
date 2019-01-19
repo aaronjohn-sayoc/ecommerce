@@ -24,6 +24,8 @@
 	 <!-- bootstrap css -->
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
+	  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+
 	  <!-- external css -->
 	  <link rel="stylesheet" href="../assets/css/style.css">
 	  
