@@ -47,9 +47,10 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<label for="image">Image:</label>
-						<i class="fa fa-cloud-upload"></i> Custom Upload					
-					<input type="file" id="image" name="image" required>
+					<label for="image" class="custom-file-upload">
+					    <i class="fa fa-cloud-upload"></i> Custom Upload
+					</label>
+					<input id="image" name="image" type="file"/>
 				</div>
 				<button type="submit" class="btn btn-block btn-outline-dark mb-3">Add New Item</button>
 			</form> <!-- end form -->
