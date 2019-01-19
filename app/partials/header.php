@@ -1,6 +1,6 @@
-	<nav class="navbar navbar-expand-lg navbar-light bg-white p-2">
+	<nav class="navbar navbar-expand-lg navbar-light bg-white p-3">
 		<a class="navbar-brand" href="./home.php">
-			<img src="../assets/images/crownbakery.png">
+			<img id="brandlogo" src="../assets/images/crownbakery.png">
 		</a>
 
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav">
