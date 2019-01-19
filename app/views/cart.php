@@ -59,7 +59,7 @@
 							</td>
 							<td class="item_subtotal text-center"> <?php echo $subTotal; ?></td>
 							<td class="item_action text-center">
-								<button class="btn btn-danger item-remove" data-id="<?php echo $id; ?>">Remove from cart</button>
+								<button class="btn btn-outline-dark item-remove" data-id="<?php echo $id; ?>">Remove from cart</button>
 							</td>
 						</tr>
 					<?php } ?>
@@ -71,7 +71,7 @@
 							<?php echo $cart_total; ?>
 						</td>
 						<td class="text-center">
-							<a href="./checkout.php" class="btn btn-primary">Proceed to checkout</a>
+							<a href="./checkout.php" class="btn btn-outline-dark">Proceed to checkout</a>
 						</td>
 					</tr>
 				</tfoot>
