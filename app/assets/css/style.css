@@ -28,3 +28,13 @@ h1,h2,h3,h4,h5, .nav-link {
 .badge-primary, .bg-primary {
 	background-color: #FF6046 !important;
 }
+
+#hdr-image {
+	height: 100vh;
+	position: relative;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.5)), 
+	url(../images/viktor-forgacs-140590-unsplash.jpg);
+	background-size: cover;
+	background-color: #fff;
+	background-attachment: fixed;
+}

@@ -2,14 +2,15 @@
 
 <?php function get_page_content() { ?>
 
-	<div class="container-fluid">
-		<div class="jumbotron bg-dark mt-3 text-center text-white">
-
-			<h1>Tapsimeals Foodie</h1>
-			<p>Your budget friendly meals at your palms!</p>
-	
-		</div> <!-- end jumbo -->
-	</div> <!-- end container -->
+	<header class="container-fluid p-0 m-0">
+		<div id="hdr-image" class="jumbotron jumbotron-fluid text-center m-0">
+		  <div class="container">
+		    <h1 id="hdr-title" class="display-4">The Best Cupcakes Ever!</h1>
+		    <p id="hdr-slogan" class="lead">Only the finest ingredients are used.</p>
+		    <a class="btn btn-outline-light btn-lg" href="#">Shop Now</a>
+		  </div>
+		</div>
+	</header> <!-- end of header -->
 
 
 <?php } ?>
