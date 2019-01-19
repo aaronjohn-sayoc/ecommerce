@@ -10,16 +10,16 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-3">
-				<div class="list-group text-white" id="list-tab" role="tablist">
-					<a class="list-group-item" href="#profile" data-toggle="list" role="tab">
+				<div class="list-group" id="list-tab" role="tablist">
+					<a class="list-group-item mb-1" href="#profile" data-toggle="list" role="tab">
 						User Information
 					</a>
-					<a class="list-group-item" href="#history" data-toggle="list" role="tab">
+					<a class="list-group-item mb-1" href="#history" data-toggle="list" role="tab">
 						Order History
 					</a>
 				</div>
 			</div>
-			<div class="col-lg-7 text-white">
+			<div class="col-lg-7 text-white p-3">
 				<div class="tab-content">
 					<div class="tab-pane" id="profile" role="tabpanel">
 
@@ -44,7 +44,7 @@
 								<input type="text" class="form-control" id="address" name="address" value="<?php echo $user['address']; ?>">
 								<span class="validation"></span><br>
 								<br>
-								<button type="button" class="btn btn-primary mb-5" id="update_info">Update Info</button>
+								<button type="button" class="btn btn-outline-light mb-5" id="update_info">Update Info</button>
 							</div>
 						</form>
 					</div>
