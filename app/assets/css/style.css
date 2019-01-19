@@ -17,7 +17,12 @@ a,p {
 }
 
 .nav-item > .nav-link {
-	font-size: 1.7rem;
+	font-size: 2rem;
+}
+
+.nav-item > .nav-link:hover {
+	font-size: 2rem;
+	color: #FF6046;
 }
 
 .badge-primary {
