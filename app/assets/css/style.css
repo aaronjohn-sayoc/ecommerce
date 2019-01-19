@@ -229,7 +229,7 @@ a {
     object-fit: cover;
 }
 
-.table thead tr th, .table tbody tr td, .table tfoot tr td  {
+.table thead tr th, .table tbody tr td, .table tfoot tr td, .table tbody+tbody  {
     border: none !important;
     border-color: transparent !important;
 }
