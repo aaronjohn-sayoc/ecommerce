@@ -123,6 +123,11 @@ h1,h2,h3,h4,h5, .nav-link {
 	border-color: #C34529 !important;
 }
 
+.list-group-item:hover, .active:hover {
+	background-color: #FF6046 !important;
+	border-color: #FF6046 !important;
+}
+
 .card-img-top {
     width: 100%;
     height: 20vw;
