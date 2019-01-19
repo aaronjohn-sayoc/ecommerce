@@ -231,6 +231,10 @@ a {
 	border-color: #ff485b !important;
 }
 
+.image {
+	border: none !important;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5, #hdr-image6, #hdr-image7, #hdr-image8, #hdr-image9 {
     background-attachment: scroll;
