@@ -60,6 +60,17 @@ h1,h2,h3,h4,h5, .nav-link {
 	background-attachment: fixed;
 }
 
+#hdr-image3 {
+	height: 50vh;
+	position: relative;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 72, 91, 0.5)), 
+	url(../images/jason-leung-705570-unsplash.jpg);
+	background-size: cover;
+	background-color: #fff;
+	background-attachment: fixed;
+}
+
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   #hdr-image, #hdr-image2 {
     background-attachment: scroll;

@@ -5,6 +5,16 @@
 
 	global $conn;
 	?>
+
+	<header id="hdr-image3" class="jumbotron jumbotron-fluid text-center m-0 p-0">
+		<div class="container pt-5"></div>
+		<div class="container pt-5"></div>
+			<div class="container pt-5">
+		   <h1 id="hdr-title" class="display-4 text-white">Cart</h1>		
+			</div>
+	</header> <!-- end of header -->
+
+
 	<div class="container my-4">
 		<div class="row">
 			<div class="col-12">
