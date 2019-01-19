@@ -25,6 +25,6 @@ h1,h2,h3,h4,h5, .nav-link {
 	color: #FF6046 !important;
 }
 
-.badge-primary {
+.badge-primary, .bg-primary {
 	background-color: #FF6046;
 }
