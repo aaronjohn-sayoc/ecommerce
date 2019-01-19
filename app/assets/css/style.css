@@ -100,6 +100,17 @@ h1,h2,h3,h4,h5, .nav-link {
 	background-attachment: fixed;
 }
 
+#hdr-image7 {
+	height: 55vh;
+	position: relative;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(255, 72, 91, 0.5)), 
+	url(../images/photo-1487376480913-24046456a727.jpg);
+	background-size: cover;
+	background-color: #fff;
+	background-attachment: fixed;
+}
+
+
 
 .card {
   border-style: none !important;
@@ -197,21 +208,21 @@ h1,h2,h3,h4,h5, .nav-link {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5 {
+  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5, #hdr-image6, #hdr-image7 {
     background-attachment: scroll;
     height: auto;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5 {
+  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5, #hdr-image6, #hdr-image7 {
     background-attachment: scroll;
     height: auto;
   }
 }
 
 @media screen and (max-width: 576px) {
-  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5 {
+  #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5, #hdr-image6, #hdr-image7 {
     background-attachment: scroll;
     height: auto;
   }

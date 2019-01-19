@@ -5,10 +5,16 @@
 		global $conn;
 		?>
 
-		<div class="container">
-			<div class="row">
-				<a href="./new_item.php" class="btn btn-outline-dark btn-lg">Add New Item</a>
+	<header id="hdr-image2" class="jumbotron jumbotron-fluid text-center m-0 p-0">
+		<div class="container pt-5"></div>
+			<div class="container pt-5">
+		   <h1 id="hdr-title" class="display-4 text-white">Items</h1>		
 			</div>
+		<div class="container pt-5">
+			<a href="./new_item.php" class="btn btn-outline-light btn-lg">Add New Item</a>
+		</div>
+	</header> <!-- end of header -->
+		<div class="container">
 
 			<?php 
 			$sql = "SELECT * FROM items";
@@ -20,7 +26,7 @@
 				// var_dump($item);
 
 			 ?>
-				<div class="col-sm-3 py-2">
+				<div class="col-sm-3 py-3 my-3">
 					<div class="card h-100">
 						<img src="<?php echo $item['image_path']; ?>" class="card-img-top">
 						<div class="card-body text-white">
@@ -32,8 +38,8 @@
 						</div> <!-- end card body -->
 
 						<div class="card-footer">
-							<a href="./edit_item.php?id=<?php echo $item['id']; ?>" class="btn btn-outline-light btn-lg"> Edit Item</a>
-							<a href="../controllers/delete_item.php?id=<?php echo $item['id']; ?>" class="btn btn-outline-light btn-lg"> Delete Item</a>
+							<a href="./edit_item.php?id=<?php echo $item['id']; ?>" class="btn btn-outline-light btn-lg mx-1 py-3"> Edit Item</a>
+							<a href="../controllers/delete_item.php?id=<?php echo $item['id']; ?>" class="btn btn-outline-light btn-lg mx-1 py-3"> Delete Item</a>
 						</div>
 
 					</div>
