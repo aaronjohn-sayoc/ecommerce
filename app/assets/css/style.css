@@ -158,6 +158,10 @@ h1,h2,h3,h4,h5, .nav-link {
     border: none;
 }
 
+.form-control {
+	border-color: #343a40 !important;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   #hdr-image, #hdr-image2, #hdr-image3, #hdr-image4, #hdr-image5 {
     background-attachment: scroll;
