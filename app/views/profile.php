@@ -9,7 +9,7 @@
  ?>
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3">
+			<div class="col-lg-3 my-2">
 				<div class="list-group" id="list-tab" role="tablist">
 					<a class="list-group-item mb-1" href="#profile" data-toggle="list" role="tab">
 						User Information
@@ -19,11 +19,11 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-lg-7 text-white p-3">
+			<div class="col-lg-7 text-white">
 				<div class="tab-content">
 					<div class="tab-pane" id="profile" role="tabpanel">
 
-						<h3>User Information</h3>
+						<h3 class="p-3">User Information</h3>
 
 						<form id="update_user_details" action="../controllers/update_profile.php" method="POST">
 							<div class="container">
@@ -51,7 +51,7 @@
 					<div class="tab-pane" id="history" role="tabpanel">
 						<div class="row">
 							<div class="col-md-6">
-								<h3>Order History</h3>
+								<h3 class="p-3">Order History</h3>
 							</div>
 						</div>
 						<div class="table-responsive">
