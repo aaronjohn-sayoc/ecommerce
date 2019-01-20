@@ -26,7 +26,7 @@ $title = 'Crown Bakery - Shop'
 	<div class="row">
 
 		<!-- categories -->
-		<div class="col-sm-2 col-lg-12">
+		<div class="col-12">
 			<!-- display categories -->
 			<h2 class="py-3">Categories</h2>
 			<ul class="list-group">
@@ -66,7 +66,7 @@ $title = 'Crown Bakery - Shop'
 		</div> <!-- end categories -->
 		
 		<!-- items -->
-		<div class="col-sm-10 col-lg-12">
+		<div class="col-12">
 			<div class="container">
 
 				<?php 
@@ -88,7 +88,7 @@ $title = 'Crown Bakery - Shop'
 					echo "<div class='row'>";
 
 					foreach ($items as $item) { ?>
-						<div class="col-sm-3 my-3">
+						<div class="col-3 my-3">
 							<div class="card h-100 hvr-float">
 								<img class="card-img-top img-fluid hvr-grow" src="<?php echo $item['image_path']; ?>">
 								<div class="card-body">
