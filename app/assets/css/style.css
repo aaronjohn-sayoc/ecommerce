@@ -22,7 +22,7 @@ h1,h2,h3,h4,h5, .nav-link {
 	font-family: 'Rubik', sans-serif;
 }
 
-a {
+a, .active {
 	color: #FF6046;
 }
 
@@ -238,12 +238,12 @@ a:hover {
   color: white;
 }
 
-.list-group-item, .active {
+.list-group-item, {
 	background-color: #C34529 !important;
 	border-color: #C34529 !important;
 }
 
-.list-group-item:hover, .active:hover {
+.list-group-item:hover, {
 	background-color: #FF6046 !important;
 	border-color: #FF6046 !important;
 }

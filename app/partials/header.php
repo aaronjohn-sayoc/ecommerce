@@ -1,3 +1,15 @@
+	<?php 
+
+function echoActiveClassIfRequestMatches($requestUri)
+{
+    $current_file_name = basename($_SERVER['REQUEST_URI'], ".php");
+
+    if ($current_file_name == $requestUri)
+        echo 'class="active"';
+}
+
+?>
+
 	<nav class="navbar navbar-expand-lg navbar-light bg-white p-1">
 		<a class="navbar-brand" href="./home.php">
 			<img id="brandlogo" src="../assets/images/crownbakery.png">
@@ -14,11 +26,11 @@
 					if(!isset($_SESSION['user']) || (isset($_SESSION['user'])) && ($_SESSION['user']['roles_id'] ==2)) {
 				?>
 
-				<li class="nav-item mx-1">
+				<li <?=echoActiveClassIfRequestMatches("home")?> class="nav-item mx-1">
 					<a class="nav-link" href="./home.php"> Home </a>
 				</li>
 
-				<li class="nav-item mx-1">
+				<li <?=echoActiveClassIfRequestMatches("catalog")?> class="nav-item mx-1">
 					<a class="nav-link" href="./catalog.php"> Shop </a>
 				</li>
 
@@ -77,6 +89,4 @@
 		</div> <!-- end navbar nav -->
 	</nav> <!-- end nav -->
 
-<script type="text/javascript">
-$('a[href="' + this.location.pathname + '"]').parents('li,ul').addClass('active');
-</script> 
+
