@@ -19,9 +19,9 @@ global $conn;
 			</div>
 	</header> <!-- end of header -->	
 
-	<div class="container">
+	<main class="container">
 		<div class="row">
-			<div class="col-sm-10 offset-sm-1">
+			<figure class="col-sm-10 offset-sm-1">
 				<table class="table table-responsive table-striped">
 					<thead>
 						<tr class="text-center">
@@ -61,9 +61,9 @@ global $conn;
 					</tbody>
 				</table>
 
-			</div> <!-- end cols -->
+			</figure> <!-- end cols -->
 		</div> <!-- end row -->
-	</div><!--  end container -->
+	</main><!--  end container -->
 
 
 

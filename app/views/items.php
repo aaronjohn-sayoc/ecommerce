@@ -18,7 +18,7 @@ $title = 'Crown Bakery - Items'
 			<a href="./new_item.php" class="btn btn-outline-light btn-lg mb-3">Add A New Item</a>
 		</div>
 	</header> <!-- end of header -->
-		<div class="container">
+		<main class="container">
 
 			<?php 
 			$sql = "SELECT * FROM items";
@@ -30,7 +30,7 @@ $title = 'Crown Bakery - Items'
 				// var_dump($item);
 
 			 ?>
-				<div class="col-4 my-3">
+				<figure class="col-4 my-3">
 					<div class="card hvr-float h-100">
 						<img src="<?php echo $item['image_path']; ?>" class="card-img-top img-fluid hvr-float">
 						<div class="card-body text-white">
@@ -47,10 +47,10 @@ $title = 'Crown Bakery - Items'
 						</div>
 
 					</div>
-				</div> <!-- end of cols -->
+				</figure> <!-- end of cols -->
 			<?php }; ?>
 			</div> <!-- end of row -->
-		</div><!--  end container -->
+		</main><!--  end container -->
 
 <?php } else {
 	header('Location: ./error.php');

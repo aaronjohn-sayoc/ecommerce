@@ -22,7 +22,7 @@ $title = 'Crown Bakery - Shop'
 			</div>
 	</header> <!-- end of header -->
 
-<div class="container py-5">
+<main class="container py-5">
 	<div class="row">
 
 		<!-- categories -->
@@ -66,7 +66,7 @@ $title = 'Crown Bakery - Shop'
 		</div> <!-- end categories -->
 		
 		<!-- items -->
-		<div class="col-12">
+		<figure class="col-12">
 			<div class="container">
 
 				<?php 
@@ -111,12 +111,12 @@ $title = 'Crown Bakery - Shop'
 							</div> <!-- end card -->
 						</div> <!-- end item col -->
 					<?php } echo "</div>" ; ?> <!-- end of items row -->		
-			</div> <!-- end items container -->
+			</figure> <!-- end items container -->
 		</div> <!-- end items -->
 	</div> <!-- end row -->
 
 
-</div> <!-- end container -->
+</main> <!-- end container -->
 
 
 <?php } else {

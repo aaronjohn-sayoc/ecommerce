@@ -26,7 +26,7 @@ $title = 'Crown Bakery - Edit Item'
 			</div>
 	</header> <!-- end of header -->
 
-	<div class="container py-3">
+	<main class="container py-3">
 		<div class="row">
 			<div class="col-sm-8 offset-sm-2">
 				<form action="../controllers/process_edit_item.php" method="POST">
@@ -69,7 +69,7 @@ $title = 'Crown Bakery - Edit Item'
 				</form> <!-- end edit form -->
 			</div> <!-- end 8 cols -->
 		</div> <!-- end row -->
-	</div> <!-- end container -->
+	</main> <!-- end container -->
 
 <?php } else {
 	header('location: ./error.php');

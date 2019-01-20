@@ -25,7 +25,7 @@ $title = 'Crown Bakery - Checkout'
 			</div>
 	</header> <!-- end of header -->	
 
-	<div class="container">
+	<main class="container">
 
 	 <form target="_blank" method="POST" action="../controllers/placeorder.php">
 	 	<div class="container mt-4">
@@ -111,7 +111,7 @@ $title = 'Crown Bakery - Checkout'
 			</div> <!-- end order summary row -->
 	 	</div> <!-- end container -->
 	 </form> <!-- end form -->
-</div>
+</main>
 
 <?php } else {
 	header('Location: ./error.php');

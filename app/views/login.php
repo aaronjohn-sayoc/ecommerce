@@ -14,7 +14,7 @@ $title = 'Crown Bakery - Login'
 			</div>
 	</header> <!-- end of header -->	
 	
-	<div class="container py-5">
+	<main class="container py-5">
 
 		<form>
 			<div class="form-group">
@@ -34,6 +34,6 @@ $title = 'Crown Bakery - Login'
 				<button type="button" class="btn btn-outline-dark mx-1 btn-lg" id="login">Login</button>
 				<a href="./register.php" class="btn btn-outline-dark mx-1 btn-lg">Register</a>
 			</div>
-	</div> <!-- end container -->
+	</main> <!-- end container -->
 
 <?php } ?>

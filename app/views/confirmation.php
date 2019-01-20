@@ -17,8 +17,8 @@ function get_page_content(){
             </div>
     </header> <!-- end of header -->        
 
-	<div class="container main-container my-4">
-        <div class="row">
+	<main class="container main-container my-4">
+        <figure class="row">
             <div class="col-sm-12 text-center">
 
                 <h3>Reference No.: <?php echo $_SESSION['new_txn_number']; ?></h3>
@@ -28,8 +28,8 @@ function get_page_content(){
 
                 <a class="btn btn-outline-dark btn-lg" href="./catalog.php">Continue Shopping</a>
             </div>
-        </div>
-    </div>
+        </figure>
+    </main>
 
 <?php } else {
     header('Location: ./error.php');

@@ -17,9 +17,9 @@ $title = 'Crown Bakery - Orders'
 			</div>
 	</header> <!-- end of header -->	
 
-	<div class="container py-5">
+	<main class="container py-5">
 		<div class="row">
-			<div class="col-sm-8 offset-sm-2">
+			<figure class="col-sm-8 offset-sm-2">
 				<table class="table table-responsive table-striped">
 					<thead>
 						<th>Transaction Code</th>
@@ -47,9 +47,9 @@ $title = 'Crown Bakery - Orders'
 						<?php } ?>
 					</tbody>
 				</table> <!-- end table -->
-			</div> <!-- end columns -->
+			</figure> <!-- end columns -->
 		</div> <!-- end row -->
-	</div> <!-- end container -->
+	</main> <!-- end container -->
 
 
 

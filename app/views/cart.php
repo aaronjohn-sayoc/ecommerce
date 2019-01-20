@@ -19,14 +19,14 @@ $title = 'Crown Bakery - Cart'
 	</header> <!-- end of header -->
 
 
-	<div class="container my-4">
+	<main class="container my-4">
 		<div class="row">
 			<div class="col-12">
 				<h2>Your Items</h2>
 			</div>
 		</div> <!-- end row -->
 
-		<div class="table-responsive">
+		<figure class="table-responsive">
 			<table class="table table-striped">
 				<thead>
 					<tr class="text-center">
@@ -90,8 +90,8 @@ $title = 'Crown Bakery - Cart'
 
 				 ?>
 			</table>
-		</div>		
-	</div> <!-- end contianer -->
+		</figure>		
+	</main> <!-- end container -->
 
 <?php } else {
 	header('location: ./error.php');

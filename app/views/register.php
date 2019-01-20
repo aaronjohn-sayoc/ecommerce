@@ -15,7 +15,7 @@ $title = 'Crown Bakery - Register'
 			</div>
 	</header> <!-- end of header -->
 
-	<div class="container py-5">
+	<main class="container py-5">
 
 		<form>
 			<div class="row">
@@ -73,7 +73,7 @@ $title = 'Crown Bakery - Register'
 		</div>
 
 
-	</div> <!-- end container -->
+	</main> <!-- end container -->
 
 
 

@@ -18,7 +18,7 @@ $title = 'Crown Bakery - New Item'
 			</div>
 	</header> <!-- end of header -->
 
-<div class="container py-5">
+<main class="container py-5">
 	<div class="row">
 		<div class="col-sm-8 offset-sm-2">
 			<form action="../controllers/process_add_item.php" method="POST" enctype="multipart/form-data">
@@ -60,7 +60,7 @@ $title = 'Crown Bakery - New Item'
 			</form> <!-- end form -->
 		</div> <!-- end 8 cols -->
 	</div> <!-- end row -->
-</div> <!-- end container -->
+</main> <!-- end container -->
 
 <?php } else {
 	header('Location: ./error.php');

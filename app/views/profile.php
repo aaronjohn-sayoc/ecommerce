@@ -20,7 +20,7 @@ $title = 'Crown Bakery - Profile'
 			</div>
 	</header> <!-- end of header -->
 
-	<div class="container">
+	<main class="container">
 		<div class="row">
 			<div class="col-lg-3 my-4">
 				<div class="list-group" id="list-tab" role="tablist">
@@ -104,5 +104,5 @@ $title = 'Crown Bakery - Profile'
 				</div>
 			</div>
 		</div>
-	</div>
+	</main>
 <?php } ?>
