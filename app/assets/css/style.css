@@ -238,12 +238,12 @@ a:hover {
   color: white;
 }
 
-.list-group-item, {
+.list-group-item {
 	background-color: #C34529 !important;
 	border-color: #C34529 !important;
 }
 
-.list-group-item:hover, {
+.list-group-item:hover {
 	background-color: #FF6046 !important;
 	border-color: #FF6046 !important;
 }
