@@ -88,7 +88,7 @@ $title = 'Crown Bakery - Shop'
 					echo "<div class='row'>";
 
 					foreach ($items as $item) { ?>
-						<div class="col-4 my-3">
+						<div class="col-md-4 col-12 my-3">
 							<div class="card h-100 hvr-float">
 								<img class="card-img-top img-fluid hvr-grow" src="<?php echo $item['image_path']; ?>">
 								<div class="card-body">

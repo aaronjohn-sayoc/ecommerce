@@ -30,7 +30,7 @@ $title = 'Crown Bakery - Items'
 				// var_dump($item);
 
 			 ?>
-				<figure class="col-4 my-3">
+				<figure class="col-md-4 col-12 my-3">
 					<div class="card hvr-float h-100">
 						<img src="<?php echo $item['image_path']; ?>" class="card-img-top img-fluid hvr-float">
 						<div class="card-body text-white">
